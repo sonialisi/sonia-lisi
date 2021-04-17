@@ -32,7 +32,7 @@ async function handleEvent(event) {
    * You can add custom logic to how we fetch your assets
    * by configuring the function `mapRequestToAsset`
    */
-  // options.mapRequestToAsset = handlePrefix(/^\/docs/)
+  // options.mapRequestToAsset = handlePrefix(/^\/pdf/)
 
   try {
     if (DEBUG) {
@@ -60,7 +60,7 @@ async function handleEvent(event) {
 
 /**
  * Here's one example of how to modify a request to
- * remove a specific prefix, in this case `/docs` from
+ * remove a specific prefix, in this case `/pdf` from
  * the url. This can be useful if you are deploying to a
  * route on a zone, or if you only want your static content
  * to exist at a specific path.

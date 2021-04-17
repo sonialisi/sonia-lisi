@@ -53,14 +53,14 @@ not_found:
   message:             |
     Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
     <!--home_link--> to try finding it again.
-  home_link:           Head back home
+  home_link:           Head back home.md
 
 offline:
   title:               'You are Offline'
   message:             |
     Sorry, but you appear to be offline and this page has not been prepared for offline viewing.
     <!--home_link--> to try finding another page.
-  home_link:           Head back home
+  home_link:           Head back home.md
 
 error:
   title:               Error
@@ -79,7 +79,7 @@ category_spearator:    ' / '
 tag_start:             'on '
 tag_separator:         ', '
 from_to_separator:     '–'
-breadcrumbs_home:      'home'
+breadcrumbs_home:      'home.md'
 breadcrumbs_separator: '/'
 
 # Date formats
