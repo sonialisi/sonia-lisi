@@ -17,7 +17,7 @@ title: Publications
 {% endcapture %}
 
 
-{% assign sortedhashes = posts | split: '|' | sort | reverse %}
+{% assign sortedhashes = posts | split: '|' %}
 {% for hash in sortedhashes %}
   {% assign hashitems = hash | split: '###' %}
   [comment]: <> {{ hashitems[0] }}
