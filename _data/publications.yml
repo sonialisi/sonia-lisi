@@ -3,7 +3,7 @@
   paper-type: ""
   selected: y
   year: 2021
-  month: 10
+  month: 11
   img: EMNLP2021
   title: "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension"
   authors: "Edoardo Barba, <strong>Luigi Procopio</strong> and Roberto Navigli"
@@ -31,7 +31,7 @@
   paper-type: ""
   selected: y
   year: 2021
-  month: 10
+  month: 8
   img: IJCAI2021
   title: "MultiMirror: Neural Cross-lingual Word Alignment for Multilingual Word Sense Disambiguation"
   authors: "<strong>Luigi Procopio</strong>, Edoardo Barba, Federico Martelli and Roberto Navigli"
@@ -59,7 +59,7 @@
   paper-type: ""
   selected: y
   year: 2021
-  month: 10
+  month: 8
   img: IJCAI2021
   title: "Exemplification Modeling: Can You Give Me an Example, Please?"
   authors: "Edoardo Barba, <strong>Luigi Procopio</strong>, Caterina Lacerra, Tommaso Pasini and Roberto Navigli"
@@ -87,7 +87,7 @@
   paper-type: ""
   selected: y
   year: 2021
-  month: 10
+  month: 6
   img: NAACL2020
   title: "SGL: Speaking the Graph Languages of Semantic Parsing via Multilingual Translation"
   authors: "<strong>Luigi Procopio</strong>, Rocco Tripodi and Roberto Navigli"
