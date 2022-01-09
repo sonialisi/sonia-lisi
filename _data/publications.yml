@@ -1,0 +1,141 @@
+-
+  layout: paper
+  paper-type: ""
+  selected: y
+  year: 2021
+  month: 11
+  img: EMNLP2021
+  title: "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension"
+  authors: "Edoardo Barba, <strong>Luigi Procopio</strong> and Roberto Navigli"
+  booktitle: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+  shortname: EMNLP
+  doc-url: ""
+  venue: conference\
+  bibtex: |
+    @inproceedings{barba-etal-2021-consec,
+        title = "{C}on{S}e{C}: Word Sense Disambiguation as Continuous Sense Comprehension",
+        author = "Barba, Edoardo  and
+          Procopio, Luigi  and
+          Navigli, Roberto",
+        booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+        month = nov,
+        year = "2021",
+        address = "Online and Punta Cana, Dominican Republic",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2021.emnlp-main.112",
+        pages = "1492--1503",
+        abstract = "Supervised systems have nowadays become the standard recipe for Word Sense Disambiguation (WSD), with Transformer-based language models as their primary ingredient. However, while these systems have certainly attained unprecedented performances, virtually all of them operate under the constraining assumption that, given a context, each word can be disambiguated individually with no account of the other sense choices. To address this limitation and drop this assumption, we propose CONtinuous SEnse Comprehension (ConSeC), a novel approach to WSD: leveraging a recent re-framing of this task as a text extraction problem, we adapt it to our formulation and introduce a feedback loop strategy that allows the disambiguation of a target word to be conditioned not only on its context but also on the explicit senses assigned to nearby words. We evaluate ConSeC and examine how its components lead it to surpass all its competitors and set a new state of the art on English WSD. We also explore how ConSeC fares in the cross-lingual setting, focusing on 8 languages with various degrees of resource availability, and report significant improvements over prior systems. We release our code at https://github.com/SapienzaNLP/consec.",
+    }
+-
+  layout: paper
+  paper-type: ""
+  selected: y
+  year: 2021
+  month: 8
+  img: IJCAI2021
+  title: "MultiMirror: Neural Cross-lingual Word Alignment for Multilingual Word Sense Disambiguation"
+  authors: "<strong>Luigi Procopio</strong>, Edoardo Barba, Federico Martelli and Roberto Navigli"
+  booktitle: "Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI-21)"
+  shortname: IJCAI
+  doc-url: ""
+  venue: conference\
+  bibtex: |
+    @inproceedings{ijcai2021-539,
+      title     = {MultiMirror: Neural Cross-lingual Word Alignment for Multilingual Word Sense Disambiguation},
+      author    = {Procopio, Luigi and Barba, Edoardo and Martelli, Federico and Navigli, Roberto},
+      booktitle = {Proceedings of the Thirtieth International Joint Conference on
+                   Artificial Intelligence, {IJCAI-21}},
+      publisher = {International Joint Conferences on Artificial Intelligence Organization},
+      editor    = {Zhi-Hua Zhou},
+      pages     = {3915--3921},
+      year      = {2021},
+      month     = {8},
+      note      = {Main Track}
+      doi       = {10.24963/ijcai.2021/539},
+      url       = {https://doi.org/10.24963/ijcai.2021/539},
+    }
+-
+  layout: paper
+  paper-type: ""
+  selected: y
+  year: 2021
+  month: 8
+  img: IJCAI2021
+  title: "Exemplification Modeling: Can You Give Me an Example, Please?"
+  authors: "Edoardo Barba, <strong>Luigi Procopio</strong>, Caterina Lacerra, Tommaso Pasini and Roberto Navigli"
+  booktitle: "Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI-21)"
+  shortname: IJCAI
+  doc-url: ""
+  venue: conference\
+  bibtex: |
+    @inproceedings{ijcai2021-520,
+      title     = {Exemplification Modeling: Can You Give Me an Example, Please?},
+      author    = {Barba, Edoardo and Procopio, Luigi and Lacerra, Caterina and Pasini, Tommaso and Navigli, Roberto},
+      booktitle = {Proceedings of the Thirtieth International Joint Conference on
+                   Artificial Intelligence, {IJCAI-21}},
+      publisher = {International Joint Conferences on Artificial Intelligence Organization},
+      editor    = {Zhi-Hua Zhou},
+      pages     = {3779--3785},
+      year      = {2021},
+      month     = {8},
+      note      = {Main Track}
+      doi       = {10.24963/ijcai.2021/520},
+      url       = {https://doi.org/10.24963/ijcai.2021/520},
+    }
+-
+  layout: paper
+  paper-type: ""
+  selected: y
+  year: 2021
+  month: 6
+  img: NAACL2020
+  title: "SGL: Speaking the Graph Languages of Semantic Parsing via Multilingual Translation"
+  authors: "<strong>Luigi Procopio</strong>, Rocco Tripodi and Roberto Navigli"
+  booktitle: "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+  shortname: NAACL
+  doc-url: ""
+  venue: conference\
+  bibtex: |
+    @inproceedings{procopio-etal-2021-sgl,
+        title = "{SGL}: Speaking the Graph Languages of Semantic Parsing via Multilingual Translation",
+        author = "Procopio, Luigi  and
+          Tripodi, Rocco  and
+          Navigli, Roberto",
+        booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+        month = jun,
+        year = "2021",
+        address = "Online",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2021.naacl-main.30",
+        doi = "10.18653/v1/2021.naacl-main.30",
+        pages = "325--337",
+        abstract = "Graph-based semantic parsing aims to represent textual meaning through directed graphs. As one of the most promising general-purpose meaning representations, these structures and their parsing have gained a significant interest momentum during recent years, with several diverse formalisms being proposed. Yet, owing to this very heterogeneity, most of the research effort has focused mainly on solutions specific to a given formalism. In this work, instead, we reframe semantic parsing towards multiple formalisms as Multilingual Neural Machine Translation (MNMT), and propose SGL, a many-to-many seq2seq architecture trained with an MNMT objective. Backed by several experiments, we show that this framework is indeed effective once the learning procedure is enhanced with large parallel corpora coming from Machine Translation: we report competitive performances on AMR and UCCA parsing, especially once paired with pre-trained architectures. Furthermore, we find that models trained under this configuration scale remarkably well to tasks such as cross-lingual AMR parsing: SGL outperforms all its competitors by a large margin without even explicitly seeing non-English to AMR examples at training time and, once these examples are included as well, sets an unprecedented state of the art in this task. We release our code and our models for research purposes at https://github.com/SapienzaNLP/sgl.",
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  month: 01
+  img: IJCAI2020
+  title: "MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation"
+  authors: "Edoardo Barba, <strong>Luigi Procopio</strong>, Niccolò Campolungo, Tommaso Pasini and Roberto Navigli"
+  booktitle: Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence (IJCAI-20)
+  shortname: IJCAI
+  doc-url: https://sapienzanlp.github.io/mulan/
+  venue: conference\
+  bibtex: |
+    @inproceedings{ijcai2020-0531,
+      title     = {MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation},
+      author    = {Barba, Edoardo and Procopio, Luigi and Campolungo, Niccolò and Pasini, Tommaso and Navigli, Roberto},
+      booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
+                   Artificial Intelligence, {IJCAI-20}},
+      publisher = {International Joint Conferences on Artificial Intelligence Organization},
+      editor    = {Christian Bessiere},
+      pages     = {3837--3844},
+      year      = {2020},
+      month     = {7},
+      note      = {Main track}
+      doi       = {10.24963/ijcai.2020/531},
+      url       = {https://doi.org/10.24963/ijcai.2020/531},
+    }

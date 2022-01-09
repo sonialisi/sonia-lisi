@@ -12,7 +12,6 @@ gem "jekyll", "~> 3.8"
 
 # A JavaScript runtime for ruby that helps with running the katex gem above.
 gem "duktape"
-gem "jekyll-theme-hydejack"
 
 group :jekyll_plugins do
   gem "github-pages"
