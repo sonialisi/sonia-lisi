@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+ url:                   'https://sonialisi.github.io'
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+ baseurl:               '/sonia-lisi'
 
 
 # General settings
@@ -17,48 +17,53 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  it
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Luigi Procopio
+title:                 Dott.ssa Sonia Lisi
 
-## A short description (~150 chars) of the page used for the meta description tag.
-## Can use markdown, but no more than one paragraph (enforced by `>`)
-#description:           >
-#  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-#  with a focus on personal sites that are meant to impress.
+# A short description (~150 chars) of the page used for the meta description tag.
+# Can use markdown, but no more than one paragraph (enforced by `>`)
+description:           >
+  Dottoressa in Psicologia Clinica, specializzata nel trattamento dei Disturbi Specifici dell'Apprendimento (DSA).
 
 # A shorter description for the sidebar.
-tagline:               procopio@di.uniroma1.it
+tagline:               sonialisi0105@gmail.com
 
 # A list of keywords for your blog
-keywords:              [machine learning, natural language processing]
+keywords:              [psicologia, psicologia clinica, dsa]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/personal-photo.jpeg
+logo:                  /assets/img/personal_photo.jpeg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Luigi Procopio
-  email:               procopio@di.uniroma1.it
+  name:                Sonia Lisi
+  email:               sonia0105@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-#  - title: About
-#    url: /about
-#  - title:             Publications
-#    url:               /publications/
-#  - title:             CV
-#    url:               /cv/
-  - title: Publications
-    url: /publications
-  - title: CV
-    url: /assets/pdf/cv.pdf
+  - title:             Chi sono
+    url:               /about/
+  - title:             Servizi
+    url:               /services/
+  - title:             Contatti
+    url:               /contacts/
+
+# Add links to the footer.
+# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+legal:
+  - title:             LICENSE
+    url:               /LICENSE/
+  - title:             NOTICE
+    url:               /NOTICE/
+  - title:             CHANGELOG
+    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
@@ -74,22 +79,21 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
- 
+
 # Sidebar image and theme color of the site.
-accent_image:
-  background: rgb(25,55,71) # provide a valid CSS background value
-  overlay:    true     # set to true if you want a dark overlay
+accent_image:          /assets/img/sidebar-bg.jpg
+accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(8,46,57)
+theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -113,7 +117,7 @@ defaults:
       path:            hyde/
     values:
       accent_color:    rgb(38,139,210)
-      theme_color:     rgb(38,139,210)
+      theme_color:     rgb(32,32,32)
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
@@ -155,7 +159,7 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         katex
+  math_engine:         mathjax
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
@@ -199,18 +203,18 @@ hydejack:
   # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   # Note that this will not hide the navbar completely, only replace it with a static one.
   # Use custom css to hide completely, e.g. `#_navbar { display: none }`.
-  no_navbar:           true
+  no_navbar:           false
 
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.
   # Run Jekyll with the `JEKYLL_ENV` environment variable set to `production` to enable.
-  no_search:           true
+  no_search:           false
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
   no_inline_css:       false
 
-  # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
+  # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   # This will increase site build speed!
   no_page_style:       false
 
@@ -253,7 +257,7 @@ hydejack:
 
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
-  # seeing an old date. 
+  # seeing an old date.
   hide_dates:          false
 
   # TODO
@@ -387,32 +391,32 @@ compress_html:
 sass:
   style:               compressed
 
-## Jekyll Compose Defaults
-## ---------------------------------------------------------------------------------------
-#
-#jekyll_compose:
-#  default_front_matter:
-#    drafts:
-#      layout: post
-#      description: >
-#        A short ~160 character description of your post for search engines,
-#        social media previews, etc.
-#      image:
-#        path: /assets/img/sidebar-bg.jpg
-#    posts:
-#      layout: post
-#      description: >
-#        A short ~160 character description of your post for search engines,
-#        social media previews, etc.
-#      image:
-#        path: /assets/img/sidebar-bg.jpg
-#    projects:
-#      layout: project
-#      description: >
-#        A short ~160 character description of your post for search engines,
-#        social media previews, etc.
-#      image:
-#        path: /assets/img/sidebar-bg.jpg
-#      links:
-#        - title: Project Link
-#          url: https://example.com
+# Jekyll Compose Defaults
+# ---------------------------------------------------------------------------------------
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar-bg.jpg
+    posts:
+      layout: post
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar-bg.jpg
+    projects:
+      layout: project
+      description: >
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar-bg.jpg
+      links:
+        - title: Project Link
+          url: https://example.com
