@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Luigi Procopio
+title: Sonia Lisi
 cover: true
 clap_button: false
 ---

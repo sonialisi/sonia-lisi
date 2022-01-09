@@ -83,8 +83,8 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 accent_image:
-  background: rgb(25,55,71) # provide a valid CSS background value
-  overlay:    true     # set to true if you want a dark overlay
+  background: rgb(204,229,255) # provide a valid CSS background value
+  overlay:    false     # set to true if you want a dark overlay
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -93,12 +93,12 @@ theme_color:           rgb(8,46,57)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+google_fonts:          Roboto+Slab:100|Noto+Sans:100,100i,100,100i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
 font:                  Noto Sans, Helvetica, Arial, sans-serif
-
+invert_sidebar: true
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
@@ -117,6 +117,7 @@ defaults:
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
+      font_color:      rgb(0,0,0)
 
   # Don't include documents in assets in the sitemap
   - scope:

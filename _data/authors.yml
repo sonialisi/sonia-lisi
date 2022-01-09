@@ -2,33 +2,15 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Luigi Procopio
-  email:             procopio@di.uniroma1.it
+  name:              Sonia Lisi
+  email:             sonialisi0105@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     **Hi!**
 
-    My name is Luigi and I am a second-year PhD student in the [SapienzaNLP Group](http://sapienzanlp.uniroma1.it/) led
-    by [Prof. Roberto Navigli](http://wwwusers.di.uniroma1.it/~navigli/).
-
-    I am currently working on Semantic Parsing and Word Sense Disambiguation, and I have a real passion for generative
-    models (those seq2seq-s are amazing).
-
-    I attained my bachelor's degree in *Computer Engineering* from [Università degli Studi Roma Tre](https://www.uniroma3.it/)
-    and, a couple of years later, my master's degree in *Engineering in Computer Science* from
-    [Sapienza Università di Roma](https://www.uniroma1.it/).
-
-    The master's degree was quite the crossroad for me, finding both AI and Security very appealing. Eventually, I went
-    for AI, but Security still had a significant impact: no matter where I go, within a couple of months, I always
-    inevitably become the Linux/DevOps guy (thank you, past self).
-
-    I am quite the binge-watcher, I have recently started playing padel quite a lot (even though skying still remains
-    my favorite sport) and I enjoy playing videogames now and then.
-
-    Anyway, if you wish to contact me, feel free to use any of the social channels on the left!
-
+    I have to write something meaningful!
   # This photo will be used in the about section
   picture:
     path:            /assets/img/personal-photo.jpeg
@@ -41,9 +23,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    email: procopio@di.uniroma1.it
-    github: poccio
-    twitter: luigi_proc
+    email: sonia0105@gmail.com
+#    github: poccio
+#    twitter: luigi_proc
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
