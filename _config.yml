@@ -58,10 +58,6 @@ menu:
 #    url:               /cv/
   - title: Servizi
     url: /servizi
-  - title: Potenziamento Cognitivo
-    url: /potenziamento-cognitivo
-  - title: Psicoeducazione
-    url: /psicoeducazione
   - title: CV
     url: /assets/pdf/cv.pdf
 
