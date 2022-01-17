@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Sonia Lisi
+title: Dott.ssa Sonia Lisi
 cover: true
 clap_button: false
 ---

@@ -2,16 +2,41 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Sonia Lisi
+  name:              Dott.ssa Sonia Lisi
   email:             sonialisi0105@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    **Hi!**
+    **Psicologa Clinica**
 
-    I have to write something meaningful!
-  # This photo will be used in the about section
+    **Esperta in neuropsicologia dell’Età Evolutiva**
+
+
+    Mi chiamo Sonia Lisi sono una Psicologa Clinica, esperta in Neuropsicologia dell’età evolutiva. Sono iscritta all’Albo degli Psicologi del Lazio (n° di iscrizione 27066).
+
+    Ho ottenuto la **Laurea magistrale in Psicologia Clinica e di Comunità** presso l’[Università Pontificia Salesiana di Roma](https://www.unisal.it) con la votazione di 110L/110. A segno di riconoscimento dell'eccellenza dei risultati ottenuti ho avuto l'onore di ricevere la medaglia universitaria.
+
+    Successivamente ho ottenuto il diploma di **Master Universitario in Neuropsicologia dell’Età Evolutiva** presso l’[Università Lumsa](https://www.lumsa.it/) in collaborazione con il [Consorzio Universitario Humanitas](https://www.consorziohumanitas.com/).
+
+    Dopo aver frequentato il corso di alta formazione “DSA: dalla valutazione clinico-diagnostica all’intervento”, ho avuto la possibilità di mettere in pratica le conoscenze acquisite sul campo, grazie alla collaborazione, tuttora in corso, con l'[Associazione Italiana per l'Infanzia nelle Difficoltà di Apprendimento  (AIIDA)](https://www.aiida.it/).
+
+    Sono esperta nell’Educazione Cognitivo-Affettiva, ovvero una strategia psicoeducativa volta alla gestione delle emozioni e al potenziamento delle abilità sociali.
+
+    Attualmente,  mi sto formando come **Psicoterapeuta cognitivo-comportamentale (CBT)** presso la [Scuola di Specializzazione in Psicoterapia Cognitiva (APC)](https://www.apc.it/) di Roma.
+
+    Mi occupo prevalentemente dei disturbi del neurosviluppo, in particolare:
+
+     - DSA;
+     - ADHD;
+     - Disturbi comportamentali (disturbo oppositivo-provocatorio, disturbo
+       della condotta…);
+     - Disabilità intellettiva e difficoltà cognitive;
+     - Sindrome dello spettro autistico ad alto funzionamento;
+     - Difficoltà emotive-relazionali (Disturbo ossessivo compulsivo, ansia,
+       fobie, disturbi dell’attaccamento, disagio adolescenziale…);
+     - Disturbi legati allo stress;
+     - Bisogni educativi speciali.
   picture:
     path:            /assets/img/personal-photo.jpeg
 #    # srcset is optional, but can be used to provide higher res versions for retina displays

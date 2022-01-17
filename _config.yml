@@ -21,7 +21,7 @@
 lang:                  it
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Sonia Lisi
+title:                 Dott.ssa Sonia Lisi
 
 ## A short description (~150 chars) of the page used for the meta description tag.
 ## Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -43,7 +43,7 @@ logo:                  /assets/img/personal-photo.jpeg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Sonia Lisi
+  name:                Dott.ssa Sonia Lisi
   email:               sonialisi0105@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -56,8 +56,12 @@ menu:
 #    url:               /publications/
 #  - title:             CV
 #    url:               /cv/
-  - title: Publications
-    url: /publications
+  - title: Servizi
+    url: /servizi
+  - title: Potenziamento Cognitivo
+    url: /potenziamento-cognitivo
+  - title: Psicoeducazione
+    url: /psicoeducazione
   - title: CV
     url: /assets/pdf/cv.pdf
 

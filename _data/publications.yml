@@ -1,28 +1,5 @@
--
-  layout: paper
-  paper-type: ""
-  selected: y
-  year: 2021
-  month: 11
-  img: EMNLP2021
-  title: "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension"
-  authors: "Edoardo Barba, <strong>Luigi Procopio</strong> and Roberto Navigli"
-  booktitle: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
-  shortname: EMNLP
-  doc-url: ""
-  venue: conference\
-  bibtex: |
-    @inproceedings{barba-etal-2021-consec,
-        title = "{C}on{S}e{C}: Word Sense Disambiguation as Continuous Sense Comprehension",
-        author = "Barba, Edoardo  and
-          Procopio, Luigi  and
-          Navigli, Roberto",
-        booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
-        month = nov,
-        year = "2021",
-        address = "Online and Punta Cana, Dominican Republic",
-        publisher = "Association for Computational Linguistics",
-        url = "https://aclanthology.org/2021.emnlp-main.112",
-        pages = "1492--1503",
-        abstract = "Supervised systems have nowadays become the standard recipe for Word Sense Disambiguation (WSD), with Transformer-based language models as their primary ingredient. However, while these systems have certainly attained unprecedented performances, virtually all of them operate under the constraining assumption that, given a context, each word can be disambiguated individually with no account of the other sense choices. To address this limitation and drop this assumption, we propose CONtinuous SEnse Comprehension (ConSeC), a novel approach to WSD: leveraging a recent re-framing of this task as a text extraction problem, we adapt it to our formulation and introduce a feedback loop strategy that allows the disambiguation of a target word to be conditioned not only on its context but also on the explicit senses assigned to nearby words. We evaluate ConSeC and examine how its components lead it to surpass all its competitors and set a new state of the art on English WSD. We also explore how ConSeC fares in the cross-lingual setting, focusing on 8 languages with various degrees of resource availability, and report significant improvements over prior systems. We release our code at https://github.com/SapienzaNLP/consec.",
-    }
+#author1:
+#  name:              Dott.ssa Sonia Lisi
+#  email:             sonialisi0105@gmail.com
+#  picture:
+#    path:            /assets/img/personal-photo.jpeg
