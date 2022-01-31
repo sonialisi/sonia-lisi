@@ -25,9 +25,8 @@ title:                 Dott.ssa Sonia Lisi
 
 ## A short description (~150 chars) of the page used for the meta description tag.
 ## Can use markdown, but no more than one paragraph (enforced by `>`)
-#description:           >
-#  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-#  with a focus on personal sites that are meant to impress.
+description:           >
+  Sonia Lisi, psicologia, psicologa, psicologa clinica, dsa, DSA, ADHD, adhd, psicoeducazione, riabilitazione
 
 # A shorter description for the sidebar.
 tagline:               Psicologa Clinica
@@ -35,7 +34,7 @@ tagline:               Psicologa Clinica
 
 
 # A list of keywords for your blog
-keywords:              [psicologia, psicologia clinica, dsa]
+keywords:              [psicologia, psicologia clinica, dsa, Sonia Lisi, psicologia, psicologa, psicologa clinica, dsa, DSA, ADHD, adhd, psicoeducazione, riabilitazione]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -365,10 +364,10 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
+social:
+ name:                Sonia Lisi
+ links:
+   - https://www.linkedin.com/in/sonia-lisi-39917116a/
 #     - https://github.com/<username>
 
 
