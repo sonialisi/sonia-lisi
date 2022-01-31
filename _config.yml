@@ -30,7 +30,9 @@ title:                 Dott.ssa Sonia Lisi
 #  with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               sonialisi0105@gmail.com
+tagline:               Psicologa Clinica
+
+
 
 # A list of keywords for your blog
 keywords:              [psicologia, psicologia clinica, dsa]
@@ -39,6 +41,11 @@ keywords:              [psicologia, psicologia clinica, dsa]
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/personal-photo.jpeg
+#logo:                  /assets/img/edited_personal_photo.jpg
+#logo:                  /assets/img/personal-photo-removebg-preview.jpg
+#logo:                  /assets/img/psy_logo.png
+#logo:                  /assets/logo.jpg
+#logo:                  /assets/img/psy_logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -84,7 +91,8 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 accent_image:
-  background: rgb(204,229,255) # provide a valid CSS background value
+  background: rgb(240,159,255) # provide a valid CSS background value
+#  background: rgb(204,229,255) # provide a valid CSS background value
   overlay:    false     # set to true if you want a dark overlay
 
 # This is used for the `theme-color` meta tag,
@@ -94,7 +102,8 @@ theme_color:           rgb(8,46,57)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:100|Noto+Sans:100,100i,100,100i
+#google_fonts:          Roboto+Slab:100|Noto+Sans:100,100i,100,100i
+google_fonts:          Dancing Script|Noto+Sans:100,100i,100,100i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss

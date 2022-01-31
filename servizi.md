@@ -1,6 +1,6 @@
 
-<details>
-<summary><b>Riabilitazione DSA</b></summary>
+<details open>
+<summary><h3><b>Riabilitazione DSA</b></h3></summary>
 <br>
 <div class="tip" markdown="1">
 
@@ -10,9 +10,7 @@ I Disturbi evolutivi Specifici dell’Apprendimento (DSA) sono un gruppo di dist
 
 I DSA si distinguono:
 - **Dislessia**: disturbo a carico della lettura che si esprime a livello base della decodifica del testo;
-
 - **Disortografia**: disturbo a carico della scrittura che si esprime a livello della compitazione del testo;
-
 - **Discalculia**: disturbo a carico delle abilità relative al mondo dei numeri e del calcolo;
 -  **Disgrafia**: disturbo della scrittura che si esprime a livello della grafia (aspetti grafo-motori).
 
@@ -50,7 +48,7 @@ Quando produce un *cambiamento clinicamente significativo,* ovvero quando le abi
 </div>
 </details>
 <details >
-<summary><b>Potenziamento cognitivo</b></summary>
+<summary><h3><b>Potenziamento cognitivo</b></h3></summary>
 <br>
 <div class="tip" markdown="1">
 **Cos’è il potenziamento cognitivo?**
@@ -105,10 +103,8 @@ Sostenendolo nello sviluppo armonico delle proprie competenze cognitive.
 </div>
 
 </details>
-<details >
-<summary><b>Psicoeducazione</b></summary>
-<br>
-
+<details>
+<summary><h3><b>Psicoeducazione</b></h3></summary>
 <div class="tip" markdown="1">
 
 L’intervento psicoeducativo si configura come un training cognitivo-comportamentale volto ad agire sulle fragilità dell’individuo al fine di promuovere comportamenti adattivi e funzionali e garantire lo sviluppo globale della personalità, tenendo conto dei propri punti di forza e di fragilità.
@@ -141,3 +137,80 @@ L’Educazione Cognitivo Affettiva (CAT) è un metodo per stimolare e strutturar
 </div>
 
 </details>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<h3>Contattami</h3>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<br>
+<div class="row">
+<!--Grid column-->
+<div class="col-md-9 mb-md-0 mb-5">
+    <form id="contact-form" name="contact-form" action="https://formspree.io/f/xlezjgoa" method="POST">
+
+<!--Grid row-->
+<div class="row">
+
+<!--Grid column-->
+<div class="col-md-6">
+    <div class="md-form mb-0">
+        <input type="text" id="name" name="name" class="form-control">
+        <label for="name" class="">Nome e Cognome</label>
+    </div>
+</div>
+<!--Grid column-->
+
+<!--Grid column-->
+<div class="col-md-6">
+    <div class="md-form mb-0">
+        <input type="text" id="email" name="email" class="form-control">
+        <label for="email" class="">Indirizzo email</label>
+    </div>
+</div>
+<!--Grid column-->
+
+</div>
+<!--Grid row-->
+
+<!--Grid row-->
+<div class="row">
+    <div class="col-md-12">
+        <div class="md-form mb-0">
+            <input type="text" id="subject" name="subject" class="form-control">
+            <label for="subject" class="">Oggetto</label>
+        </div>
+    </div>
+</div>
+<!--Grid row-->
+
+<!--Grid row-->
+<div class="row">
+
+<!--Grid column-->
+<div class="col-md-12">
+
+<div class="md-form">
+    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+    <label for="message">Messaggio</label>
+</div>
+
+</div>
+</div>
+<!--Grid row-->
+
+</form>
+
+<div class="text-center text-md-left">
+    <a class="btn btn-primary" color="#FFFFFF" onclick="document.getElementById('contact-form').submit();">Invia</a>
+</div>
+<div class="status"></div>
+</div>
+<!--Grid column-->
+
+
+</div>

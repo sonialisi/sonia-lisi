@@ -4,6 +4,7 @@
 author1:
   name:              Dott.ssa Sonia Lisi
   email:             sonialisi0105@gmail.com
+  linkedin:          prova.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -37,9 +38,82 @@ author1:
        fobie, disturbi dell’attaccamento, disagio adolescenziale…);
      - Disturbi legati allo stress;
      - Bisogni educativi speciali.
+    <br>
+    <br>
+    <h2>Contattami</h2>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <br>
+    <div class="row">
+    <!--Grid column-->
+    <div class="col-md-9 mb-md-0 mb-5">
+        <form id="contact-form" name="contact-form" action="https://formspree.io/f/xlezjgoa" method="POST">
+
+    <!--Grid row-->
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-md-6">
+        <div class="md-form mb-0">
+            <input type="text" id="name" name="name" class="form-control">
+            <label for="name" class="">Nome e Cognome</label>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-md-6">
+        <div class="md-form mb-0">
+            <input type="text" id="email" name="email" class="form-control">
+            <label for="email" class="">Indirizzo email</label>
+        </div>
+    </div>
+    <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <!--Grid row-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="md-form mb-0">
+                <input type="text" id="subject" name="subject" class="form-control">
+                <label for="subject" class="">Oggetto</label>
+            </div>
+        </div>
+    </div>
+    <!--Grid row-->
+
+    <!--Grid row-->
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-md-12">
+
+    <div class="md-form">
+        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+        <label for="message">Messaggio</label>
+    </div>
+
+    </div>
+    </div>
+    <!--Grid row-->
+
+    </form>
+
+    <div class="text-center text-md-left">
+        <a class="btn btn-primary" color="#FFFFFF" onclick="document.getElementById('contact-form').submit();">Invia</a>
+    </div>
+    <div class="status"></div>
+    </div>
+    <!--Grid column-->
+
+
+    </div>
   picture:
     path:            /assets/img/personal-photo.jpeg
-#    # srcset is optional, but can be used to provide higher res versions for retina displays
+
+  #    # srcset is optional, but can be used to provide higher res versions for retina displays
 #    srcset:
 #      1x:            https://placehold.it/128x128
 #      2x:            https://placehold.it/256x256
@@ -49,7 +123,9 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     email: sonialisi0105@gmail.com
-#    github: poccio
+    linkedin: sonia-lisi-39917116a
+
+    #    github: poccio
 #    twitter: luigi_proc
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -79,7 +155,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
