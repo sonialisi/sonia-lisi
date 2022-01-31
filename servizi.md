@@ -1,3 +1,4 @@
+<meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 
 <details open>
 <summary><h3><b>Riabilitazione DSA</b></h3></summary>

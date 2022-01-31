@@ -4,11 +4,12 @@
 author1:
   name:              Dott.ssa Sonia Lisi
   email:             sonialisi0105@gmail.com
-  linkedin:          prova.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
+    <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+
     **Psicologa Clinica**
 
     **Esperta in neuropsicologia dell’Età Evolutiva**
