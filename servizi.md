@@ -1,5 +1,5 @@
 <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
-
+<img src="assets/img/personal-photo.jpg" alt="Dott.ssa Sonia Lisi" height="100" width="100" style="float: right;">
 <details open>
 <summary><h3><b>Riabilitazione DSA</b></h3></summary>
 <br>

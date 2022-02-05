@@ -40,7 +40,7 @@ keywords:              [psicologia, psicologia clinica, dsa, Sonia Lisi, psicolo
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/personal-photo.jpeg
+logo:                  /assets/img/personal-photo.jpg
 #logo:                  /assets/img/edited_personal_photo.jpg
 #logo:                  /assets/img/personal-photo-removebg-preview.jpg
 #logo:                  /assets/img/psy_logo.png
@@ -91,7 +91,8 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 accent_image:
-  background: rgb(240,159,255) # provide a valid CSS background value
+#  background: rgb(240,159,255) # provide a valid CSS background value
+  background: rgb(255,204,229) # provide a valid CSS background value
 #  background: rgb(204,229,255) # provide a valid CSS background value
   overlay:    false     # set to true if you want a dark overlay
 
@@ -103,15 +104,16 @@ theme_color:           rgb(8,46,57)
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
 #google_fonts:          Roboto+Slab:100|Noto+Sans:100,100i,100,100i
-google_fonts:          Dancing Script|Noto+Sans:100,100i,100,100i
+#google_fonts:          Dancing Script|Noto+Sans:100,100i,100,100i
+google_fonts:          Niconne|Noto+Sans:100,100i,100,100i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                  Noto Sans, Helvetica, Arial, sans-serif
+font:                  Hind, Helvetica, Arial, sans-serif
 invert_sidebar: true
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          Hind, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
@@ -127,7 +129,7 @@ defaults:
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
-      font_color:      rgb(0,0,0)
+      font_color:      rgb(0,0,102)
 
   # Don't include documents in assets in the sitemap
   - scope:

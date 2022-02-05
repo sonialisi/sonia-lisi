@@ -31,29 +31,40 @@
 //    background-color: #8064A2 !important;
 //}
 .sidebar-sticky{
-    color: white;
+    color: rgb(0,0,102);
     //font-family: 'Snell Roundhand', cursive, serif;
     //font-size: 50px;
     text-align: center;
 }
 .btn-primary{
     color:white !important;
-    background-color: #DC91DC !important;
+    background-color: rgb(255,204,229) !important;
 }
 .h1{
-    color: white;
-    font-family: 'Dancing Script', cursive, serif !important;
+    color: rgb(0,0,102);
+    font-family: 'Niconne', cursive !important;
     font-size: 40px !important;
     text-align: center;
 }
 #_drawer--opened{
-    color: white;
+    color: rgb(0,0,102);
     //font-family: 'Snell Roundhand', cursive, serif;
     //font-size: 50px;
     text-align: center;
 }
+
+.mb6{
+    font-family: 'Hind', serif;
+    color: rgb(0,0,102) !important;
+    font-size: large;
+}
+.mb6 a{
+    font-family: 'Hind', serif;
+    color: rgb(0,0,102) !important;
+}
+
 .sidebar a{
-    color: white;
+    color: rgb(0,0,102);
     //font-family: 'Snell Roundhand', cursive, serif;
     //font-size: 50px;
     text-align: center;
